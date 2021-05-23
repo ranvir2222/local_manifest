@@ -2,9 +2,10 @@
 <manifest>
 
         <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
+        <remote name="ranvir2222" fetch="https://github.com/ranvir2222" />
 
         <remove-project name="android_frameworks_av" />
         <project path="vendor/PocoParts" name="vendor_PocoParts" remote="himanshu0218" revision="11" />
-        <project path="frameworks/av" name="android_frameworks_av" remote="himanshu0218" revision="11" />
+        <project path="frameworks/av" name="android_frameworks_av" remote="ranvir2222" revision="cr-9.0" />
 
 </manifest>
